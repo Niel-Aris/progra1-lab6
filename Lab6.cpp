@@ -24,7 +24,7 @@ void Lab6::calcularTotal()
     double total = precio * cantidad;
 
     ui.lblTotal->setText(
-        QString("Total: CRC %1").arg(total, 0, 'f', 2)
+        QString("mi total: CRC %1").arg(total, 0, 'f', 2)
     );
 }
 
