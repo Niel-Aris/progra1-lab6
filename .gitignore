@@ -1,0 +1,25 @@
+# CMake build directories and generated files
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+build.ninja
+
+# Qt generated files
+*_autogen/
+moc_*.cpp
+ui_*.h
+
+# Compiled artifacts and application bundles
+*.o
+*.a
+*.dylib
+*.app/
+
+# Local IDE and operating system files
+.DS_Store
+*.user
+*.user.*
